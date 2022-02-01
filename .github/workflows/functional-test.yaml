@@ -3,7 +3,7 @@ name: functional-test
 on:
   schedule:
     # run at 23:05 PM PST (cron uses UTC)
-    - cron:  '5 45 * * *'
+    - cron:  '5 15 * * *'
 
 jobs:
 
